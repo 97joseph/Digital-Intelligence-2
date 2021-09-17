@@ -7,6 +7,29 @@
 
 def divisible(n):
     # ADD YOUR CODE HERE
+      #Declaring empty list
+
+    isDivisible = []
+
+    #Looping from 1 to 9
+
+    for i in range(1,10):
+
+        #Checking if the n is divisible or not
+
+        if (n % i) == 0:
+
+            #Appending the result
+
+            isDivisible.append(True)
+
+        else:
+
+            isDivisible.append(False)
+
+    #returning the list        
+
+    return isDivisible   
     return -1 # CHANGE OR REMOVE THIS LINE
 
 
