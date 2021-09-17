@@ -7,7 +7,28 @@
 
 def is_palindrome(s):
     # ADD YOUR CODE HERE
-    return -1 # CHANGE OR REMOVE THIS LINE
+     def is_palindrom(s):
+
+       i=0;
+
+       j=len(s)-1
+ 
+       #iterating from both ends
+
+      #comparing each char to check equality
+
+       while(i<j):
+
+        if(s[i]!=s[j]):
+
+                    return False
+
+        i=i+1
+
+        j=j-1
+
+        return True
+
 
 
 # DO NOT DELETE THE FOLLOWING LINES OF CODE! YOU MAY
