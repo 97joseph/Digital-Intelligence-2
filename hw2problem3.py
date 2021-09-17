@@ -15,14 +15,15 @@ def reverse1(s):
 
       return res
 
-    def reverse2(s):
+    
 
-     return s[::-1]
+     
 
     return -1 # CHANGE OR REMOVE THIS LINE
 
 def reverse2(s):
     # ADD YOUR CODE HERE
+    return s[::-1]
     return -1 # CHANGE OR REMOVE THIS LINE
 
 
