@@ -7,6 +7,18 @@
 
 def reverse1(s):
     # ADD YOUR CODE HERE
+    res = ""
+
+    for c in s:
+
+      res = c + res
+
+      return res
+
+    def reverse2(s):
+
+     return s[::-1]
+
     return -1 # CHANGE OR REMOVE THIS LINE
 
 def reverse2(s):
