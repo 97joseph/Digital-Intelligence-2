@@ -8,7 +8,39 @@
 def frequency(c, s):
     # ADD YOUR CODE HERE
     return -1 # CHANGE OR REMOVE THIS LINE
+    # 1. First, count the number of times that c appears in s.
 
+    c_occ = 0
+
+    for ch in s:
+
+        if ch==c:
+
+            c_occ += 1
+
+    # 2. Second, compute the total number of characters in s.
+
+    length_s = len(s)
+
+    # 3. Third, divide the result of the step 1 by the result of step 2
+
+    freq = c_occ/length_s
+
+    # 4. Fourth, multiply the result of step 3 by 100.
+
+    freq_perc = freq*100
+
+    # 5. Fifth, round the result to two decimal places
+
+    freq_perc = round(freq_perc, 2)
+
+    # Return the final value as the result of the function
+
+    return freq_perc
+
+result = frequency("i", "Mississippi")
+
+print("The relative frequency is "+str(result)+"%.")
 
 # DO NOT DELETE THE FOLLOWING LINES OF CODE! YOU MAY
 # CHANGE THE FUNCTION CALLS TO TEST YOUR WORK WITH
